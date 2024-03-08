@@ -1,0 +1,2239 @@
+.edit-meta-data-child {
+    align-self: stretch;
+    height: 64rem;
+    position: relative;
+    background-color: var(--lightgray100);
+    display: none;
+}
+
+.frame-orderconfirmation-finali-child {
+    height: 5rem;
+    width: 90rem;
+    position: relative;
+    background-color: var(--darkblue800);
+    display: none;
+    max-width: 100%;
+}
+
+.xarex-logo-icon {
+    width: 9.475rem;
+    height: 2rem;
+    position: relative;
+    object-fit: cover;
+    z-index: 2;
+}
+
+.line {
+    height: 2.5rem;
+    width: 13.188rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.my-buyers,
+.my-suppliers {
+    position: relative;
+    line-height: 1.25rem;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.frame-order-confirmation-quota,
+.line1 {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.line1 {
+    display: flex;
+    flex-direction: row;
+    gap: 0 1.938rem;
+}
+
+.frame-order-confirmation-quota {
+    height: 2rem;
+    flex-direction: column;
+    padding: 0 1.813rem 0 0;
+}
+
+.frame-order-confirmation-quota,
+.line2,
+.my-reports {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.my-reports {
+    width: 6.313rem;
+    position: relative;
+    line-height: 1.25rem;
+    align-items: center;
+    white-space: nowrap;
+    padding-right: var(--padding-xl);
+    z-index: 2;
+}
+
+.line2 {
+    height: 2rem;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    max-width: 100%;
+}
+
+.notification-important-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 2;
+}
+
+.frame-order-confirmation-quota1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-xs);
+}
+
+.text-button {
+    flex: 1;
+    position: relative;
+    line-height: 1.5rem;
+    white-space: nowrap;
+}
+
+.inputicon {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.buttontexticon,
+.frame-orderconfirmation-finali2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.buttontexticon {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xs) var(--padding-base) var(--padding-xs) 5.75rem;
+    box-sizing: border-box;
+    gap: 0 1rem;
+    z-index: 2;
+}
+
+.frame-orderconfirmation-finali2 {
+    border-radius: 50%;
+    background-color: var(--darkblue500);
+    z-index: 3;
+}
+
+.jp,
+.line3 {
+    position: absolute;
+}
+
+.jp {
+    top: 0.5rem;
+    left: 0.563rem;
+    line-height: 1.5rem;
+    white-space: nowrap;
+    z-index: 4;
+}
+
+.line3 {
+    top: 0.25rem;
+    left: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: left;
+    color: var(--lightgray200);
+}
+
+.frame-orderconfirmation-finali1 {
+    height: 3rem;
+    width: 13.875rem;
+    position: relative;
+    text-align: center;
+    font-size: var(--paragraph-large-bold-size);
+}
+
+.frame-orderconfirmation-finali {
+    align-self: stretch;
+    background-color: var(--darkblue800);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: var(--padding-base) var(--padding-5xs) var(--padding-base) var(--padding-3xl);
+    box-sizing: border-box;
+    gap: 0 1rem;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--paragraph-bold-size);
+    color: var(--lightgray400);
+    font-family: var(--paragraph-small);
+}
+
+.edit-meta-data-item {
+    width: 16.188rem;
+    height: 3rem;
+    position: relative;
+    border-radius: var(--br-5xs);
+    background-color: var(--lightgray100);
+    display: none;
+}
+
+.you-have-just {
+    height: 1.5rem;
+    flex: 1;
+    position: relative;
+    line-height: 1.5rem;
+    display: inline-block;
+}
+
+.you-have-just-uploaded-this-do-wrapper {
+    width: 20.438rem;
+    border-radius: var(--br-5xs);
+    background-color: var(--warning100);
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-5xs) var(--padding-base);
+    box-sizing: border-box;
+    white-space: nowrap;
+    max-width: 100%;
+    z-index: 4;
+}
+
+.inputicon1 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.secondary-button {
+    flex: 1;
+    position: relative;
+    font-size: var(--paragraph-large-bold-size);
+    line-height: 1.5rem;
+    font-family: var(--paragraph-small);
+    color: var(--darkblue500);
+    text-align: center;
+}
+
+.inputicon2 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.buttonsecondary,
+.frame-order-confirmation-quota3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.buttonsecondary {
+    cursor: pointer;
+    border: 1px solid var(--darkblue500);
+    padding: var(--padding-base) var(--padding-4xl);
+    background-color: var(--color-white);
+    align-self: stretch;
+    border-radius: var(--br-5xs);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    flex-direction: row;
+    gap: 0 1rem;
+    z-index: 1;
+}
+
+.frame-order-confirmation-quota3 {
+    width: 14.563rem;
+    flex-direction: column;
+    padding: 0 var(--padding-4xs) 0 0;
+    box-sizing: border-box;
+}
+
+.placeholder,
+.search-icon {
+    height: 1.5rem;
+    position: relative;
+}
+
+.search-icon {
+    width: 1.5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.placeholder {
+    width: calc(100% - 24px);
+    border: 0;
+    outline: 0;
+    font-family: var(--paragraph-small);
+    font-size: var(--paragraph-large-bold-size);
+    background-color: transparent;
+    flex: 1;
+    line-height: 1.5rem;
+    color: var(--lightgray500);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    min-width: 15.625rem;
+    max-width: calc(100% - 32px);
+    padding: 0;
+}
+
+.line5 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 0.5rem;
+    max-width: 100%;
+}
+
+.search-icon1 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+    min-height: 1.5rem;
+}
+
+.field,
+.frame-order-confirmation-logis1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.field {
+    align-self: stretch;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--lightgray500);
+    flex-direction: row;
+    padding: var(--padding-base) var(--padding-mini);
+    z-index: 1;
+}
+
+.frame-order-confirmation-logis1 {
+    flex: 1;
+    flex-direction: column;
+    padding: 0 var(--padding-4xs) 0 0;
+    min-width: 28.938rem;
+}
+
+.inputicon3 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.primary-button {
+    flex: 1;
+    position: relative;
+    font-size: var(--paragraph-large-bold-size);
+    line-height: 1.5rem;
+    font-family: var(--paragraph-small);
+    color: var(--color-white);
+    text-align: center;
+}
+
+.inputicon4 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+    min-height: 1.5rem;
+}
+
+.button {
+    cursor: pointer;
+    border: 1px solid var(--darkblue500);
+    padding: var(--padding-base) var(--padding-4xl);
+    background-color: var(--darkblue500);
+    width: 14.563rem;
+    border-radius: var(--br-5xs);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 1rem;
+    z-index: 1;
+}
+
+.inputicon5 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.secondary-button1 {
+    flex: 1;
+    position: relative;
+    font-size: var(--paragraph-large-bold-size);
+    line-height: 1.5rem;
+    font-family: var(--paragraph-small);
+    color: var(--darkblue500);
+    text-align: center;
+}
+
+.inputicon6 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+    min-height: 1.5rem;
+}
+
+.buttonsecondary1,
+.line4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.buttonsecondary1 {
+    cursor: pointer;
+    border: 1px solid var(--darkblue500);
+    padding: var(--padding-base) var(--padding-13xl) var(--padding-base) 1.938rem;
+    background-color: var(--color-white);
+    width: 14rem;
+    border-radius: var(--br-5xs);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    justify-content: flex-start;
+    gap: 0 1rem;
+    z-index: 1;
+}
+
+.line4 {
+    align-self: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0 0.438rem;
+    max-width: 100%;
+    row-gap: 10px;
+}
+
+.inputicon7 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.text-button1 {
+    flex: 1;
+    position: relative;
+    font-size: var(--paragraph-large-bold-size);
+    line-height: 1.5rem;
+    font-family: var(--paragraph-small);
+    color: var(--bluegray500);
+    text-align: center;
+}
+
+.buttontexticon1,
+.line6 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.buttontexticon1 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-base);
+    background-color: var(--lightgray200);
+    flex: 1;
+    border-radius: var(--br-5xs);
+    gap: 0 1rem;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.buttontexticon1:hover {
+    background-color: #bfc9d6;
+}
+
+.line6 {
+    align-self: stretch;
+    padding: 0 0 0 var(--padding-12xs);
+}
+
+.inputicon8 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.text-button2 {
+    flex: 1;
+    position: relative;
+    line-height: 1.5rem;
+}
+
+.buttontexticon2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base);
+    gap: 0 1rem;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.inputicon9 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.text-button3 {
+    flex: 1;
+    position: relative;
+    line-height: 1.5rem;
+}
+
+.buttontexticon3 {
+    width: 7.938rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base);
+    box-sizing: border-box;
+    gap: 0 1rem;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.inputicon10 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.text-button4 {
+    flex: 1;
+    position: relative;
+    line-height: 1.5rem;
+}
+
+.buttontexticon4 {
+    width: 7.688rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base);
+    box-sizing: border-box;
+    gap: 0 1rem;
+    z-index: 4;
+    cursor: pointer;
+}
+
+.inputicon11 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.text-button5 {
+    flex: 1;
+    position: relative;
+    line-height: 1.5rem;
+}
+
+.buttontexticon5,
+.frame-orderconfirmation-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.buttontexticon5 {
+    flex: 1;
+    padding: var(--padding-base);
+    gap: 0 1rem;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.frame-orderconfirmation-group {
+    width: 8.563rem;
+    padding: 0 var(--padding-12xs);
+    box-sizing: border-box;
+}
+
+.inputicon12 {
+    margin: 0;
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.text-button6 {
+    flex: 1;
+    position: relative;
+    line-height: 1.5rem;
+}
+
+.buttontexticon6 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base);
+    gap: 0 1rem;
+    z-index: 6;
+    cursor: pointer;
+}
+
+.frame-order-confirmation-quota4,
+.frame-orderconfirmation-group1 {
+    width: 7.313rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    box-sizing: border-box;
+}
+
+.frame-order-confirmation-quota4 {
+    width: 10.938rem;
+    flex: 1;
+    flex-direction: column;
+    padding: 0 var(--padding-xl) 0 0;
+}
+
+.all-rights-reserved,
+.xarepay {
+    margin: 0;
+}
+
+.xarepay-all-rights-container {
+    position: relative;
+    line-height: 1rem;
+    z-index: 1;
+}
+
+.frame-order-confirmation-logis3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-3xl) 0 1.75rem;
+    text-align: left;
+    font-size: var(--paragraph-small-size);
+    color: var(--color-black);
+}
+
+.frame-orderconfirmation-quotat {
+    height: 51.188rem;
+    width: 11.625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.line-child {
+    width: 74rem;
+    height: 51.813rem;
+    position: relative;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    display: none;
+    max-width: 100%;
+}
+
+.home,
+.inputicon13 {
+    position: relative;
+    z-index: 2;
+}
+
+.home {
+    line-height: 1.5rem;
+}
+
+.inputicon13 {
+    height: 1.5rem;
+    width: 1.5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.my-suppliers1 {
+    flex: 1;
+    line-height: 1.5rem;
+    display: inline-block;
+    min-width: 4.125rem;
+}
+
+.inputicon14,
+.my-suppliers1,
+.supplierxyz {
+    position: relative;
+    z-index: 2;
+}
+
+.inputicon14 {
+    height: 1.5rem;
+    width: 1.5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.supplierxyz {
+    line-height: 1.5rem;
+}
+
+.line8 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0.313rem 0 0;
+    box-sizing: border-box;
+    min-width: 4.125rem;
+}
+
+.inputicon15 {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 2;
+}
+
+.frame-order-confirmation-quota6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-6xs) 0 0;
+}
+
+.tradexyz {
+    position: relative;
+    line-height: 1.5rem;
+    z-index: 2;
+}
+
+.frame-order-confirmation-quota5 {
+    width: 29.563rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 0.5rem;
+    max-width: 100%;
+}
+
+.tradexyz1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 2.25rem;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 2;
+}
+
+.frame-order-confirmation-logis4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.125rem 0 0;
+}
+
+.documents {
+    position: relative;
+    line-height: 1.25rem;
+    z-index: 2;
+}
+
+.line10 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+}
+
+.frame-child {
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+    border-radius: var(--br-base);
+    background-color: var(--color-lightgray);
+    display: none;
+}
+
+.line11 {
+    position: relative;
+    line-height: 1.25rem;
+    z-index: 1;
+}
+
+.rectangle-parent {
+    border-radius: var(--br-base);
+    background-color: var(--color-lightgray);
+    flex-direction: row;
+    padding: var(--padding-7xs) var(--padding-5xs);
+    z-index: 2;
+    color: #4f627c;
+}
+
+.frame-orderconfirmation-group2,
+.frame-shared-logistics,
+.rectangle-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frame-orderconfirmation-group2 {
+    flex-direction: row;
+    gap: 0 0.438rem;
+}
+
+.frame-shared-logistics {
+    flex-direction: column;
+    padding: var(--padding-9xs) 0 0;
+}
+
+.inputicon16 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.frame-orderconfirmation-group3 {
+    border-radius: var(--br-5xs);
+    background-color: var(--lightgray200);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xs);
+    z-index: 2;
+}
+
+.inputicon17 {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 2;
+}
+
+.line12 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs) 0 0;
+}
+
+.frame-orderconfirmation-logist {
+    justify-content: flex-start;
+    gap: 0 1.313rem;
+}
+
+.frame-orderconfirmation-finali3,
+.frame-orderconfirmation-logist,
+.line9 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.line9 {
+    justify-content: flex-start;
+    gap: 0 2.125rem;
+    text-align: right;
+    font-size: var(--paragraph-bold-size);
+}
+
+.frame-orderconfirmation-finali3 {
+    align-self: stretch;
+    justify-content: space-between;
+    gap: 1.25rem;
+    font-size: var(--h2-heading-size);
+}
+
+.group-more-vertical-frame {
+    width: 70rem;
+    height: 0.063rem;
+    position: relative;
+    border-top: 1px solid var(--lightgray500);
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.frame-item,
+.inputicon18 {
+    position: relative;
+    flex-shrink: 0;
+}
+
+.frame-item {
+    height: 4rem;
+    width: 70rem;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    border: 2px solid var(--warning400);
+    box-sizing: border-box;
+    display: none;
+}
+
+.inputicon18 {
+    height: 1.5rem;
+    width: 1.5rem;
+    overflow: hidden;
+}
+
+.primary-button1 {
+    position: relative;
+    line-height: 1.5rem;
+}
+
+.inputicon19 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.button1 {
+    height: 3.5rem;
+    border-radius: var(--br-5xs);
+    background-color: var(--darkblue500);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--darkblue500);
+    box-sizing: border-box;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xl) var(--padding-mid);
+    gap: 0 1rem;
+}
+
+.inputicon20 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.secondary-button2 {
+    height: 1.5rem;
+    flex: 1;
+    position: relative;
+    line-height: 1.5rem;
+    display: inline-block;
+}
+
+.inputicon21 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.buttonsecondary2 {
+    height: 3.5rem;
+    width: 8.813rem;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--darkblue500);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xl) var(--padding-4xs);
+    gap: 0 1rem;
+    color: var(--darkblue500);
+}
+
+.pdf-file-icon-1 {
+    height: 2rem;
+    width: 1.625rem;
+    position: relative;
+    flex-shrink: 0;
+    object-fit: cover;
+    min-height: 2rem;
+    z-index: 1;
+}
+
+.invoice-008-fib-20-04-23pdf {
+    position: relative;
+    line-height: 1.5rem;
+    z-index: 1;
+}
+
+.orderconfirmation-frame-group {
+    width: 61.375rem;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0 0;
+    box-sizing: border-box;
+    max-width: calc(100% - 106px);
+    text-align: left;
+    color: var(--bluegray500);
+}
+
+.more-vertical-icon {
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+    min-height: 2rem;
+    z-index: 1;
+}
+
+.frame-inner,
+.rectangle-group {
+    width: 70rem;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    box-sizing: border-box;
+}
+
+.rectangle-group {
+    border: 2px solid var(--warning400);
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base) var(--padding-sm);
+    gap: var(--gap-5xl);
+    z-index: 2;
+    color: var(--color-white);
+}
+
+.frame-inner {
+    height: 4rem;
+    position: relative;
+    border: 1px solid var(--color-lightsteelblue-100);
+    display: none;
+    max-width: 100%;
+    z-index: 0;
+}
+
+.inputicon22 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.primary-button2 {
+    position: relative;
+    line-height: 1.5rem;
+}
+
+.inputicon23 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.button2 {
+    height: 3.5rem;
+    border-radius: var(--br-5xs);
+    background-color: var(--darkblue500);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--darkblue500);
+    box-sizing: border-box;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xl) var(--padding-mid);
+    gap: 0 1rem;
+    z-index: 1;
+    color: var(--color-white);
+}
+
+.inputicon24 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.secondary-button3 {
+    height: 1.5rem;
+    flex: 1;
+    position: relative;
+    line-height: 1.5rem;
+    display: inline-block;
+}
+
+.inputicon25 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.buttonsecondary3 {
+    height: 3.5rem;
+    width: 8.813rem;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--darkblue500);
+    box-sizing: border-box;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xl) var(--padding-4xs);
+    gap: 0 1rem;
+    z-index: 2;
+    color: var(--darkblue500);
+}
+
+.pdf-file-icon-11 {
+    height: 2rem;
+    width: 1.625rem;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.orderconfirm-fl-18-04-23pdf {
+    position: relative;
+    line-height: 1.5rem;
+    z-index: 1;
+}
+
+.frame-orderconfirmation,
+.pdf-file-icon-1-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frame-orderconfirmation {
+    flex-direction: column;
+    padding: var(--padding-9xs) 0 0;
+}
+
+.pdf-file-icon-1-parent {
+    flex-direction: row;
+    padding: 0 2.188rem 0 0;
+    box-sizing: border-box;
+    gap: 0 1.5rem;
+    max-width: 100%;
+    text-align: left;
+}
+
+.order-confirmation {
+    position: relative;
+    font-size: var(--paragraph-small-size);
+    line-height: 1rem;
+    font-family: var(--paragraph-small);
+    color: var(--color-gray-100);
+    text-align: left;
+}
+
+.frame-orderconfirmation-fibs-p {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-9xs) var(--padding-5xs);
+    background-color: var(--neutral200);
+    border-radius: var(--br-5xl);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.frame-orderconfirmation-fibs-p:hover {
+    background-color: var(--color-lightblue-100);
+}
+
+.fibs-logistics {
+    position: relative;
+    line-height: 1rem;
+    z-index: 1;
+}
+
+.invoice-fibpdf {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0 0;
+    box-sizing: border-box;
+    min-width: 5.188rem;
+}
+
+.tradexyzfl0007 {
+    position: relative;
+    line-height: 1rem;
+    white-space: pre-wrap;
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.fibs-logistics1,
+.frame-orderconfirmation-fibs-p-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.fibs-logistics1 {
+    flex-direction: column;
+    padding: var(--padding-10xs) 0 0;
+}
+
+.frame-orderconfirmation-fibs-p-parent {
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0 0.5rem;
+}
+
+.frame-wrapper,
+.shared {
+    font-size: var(--paragraph-small-size);
+    text-align: left;
+}
+
+.frame-wrapper {
+    width: 24.563rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.shared {
+    position: relative;
+    line-height: 1rem;
+    font-family: var(--paragraph-small);
+    color: var(--color-white);
+}
+
+.orderconfirmation-f-lpdf {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-9xs) var(--padding-5xs);
+    background-color: var(--success500);
+    border-radius: var(--br-5xl);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 1;
+}
+
+.orderconfirmation-f-lpdf:hover {
+    background-color: var(--color-forestgreen);
+}
+
+.on-18042023 {
+    align-self: stretch;
+    position: relative;
+    line-height: 1rem;
+    z-index: 1;
+}
+
+.shared1 {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-9xs) 0 0;
+}
+
+.button-text-icon-frame,
+.frame-shared,
+.shared1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frame-shared {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 0 1.063rem;
+}
+
+.button-text-icon-frame {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-9xs) 0 0;
+}
+
+.more-vertical-icon1 {
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.button-text-icon-frame-parent {
+    width: 15.563rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: var(--paragraph-small-size);
+}
+
+.rectangle-div {
+    width: 14rem;
+    height: 8.125rem;
+    position: relative;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--lightgray500);
+    box-sizing: border-box;
+    display: none;
+}
+
+.inputicon26 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.text-button7 {
+    flex: 1;
+    position: relative;
+    line-height: 1.5rem;
+}
+
+.buttontexticon7 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base);
+    gap: 0 1rem;
+    z-index: 1;
+}
+
+.inputicon27 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.text-button8 {
+    flex: 1;
+    position: relative;
+    line-height: 1.5rem;
+}
+
+.buttontexticon8 {
+    width: 7.313rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base);
+    box-sizing: border-box;
+    gap: 0 1rem;
+    z-index: 1;
+}
+
+.frame-child1,
+.group-div,
+.rectangle-container {
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    box-sizing: border-box;
+}
+
+.group-div {
+    width: 14rem;
+    margin: 0 !important;
+    position: absolute;
+    top: -3.062rem;
+    right: 0;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--lightgray500);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs) var(--padding-13xl) 0.625rem var(--padding-12xs);
+    z-index: 3;
+}
+
+.frame-child1,
+.rectangle-container {
+    width: 70rem;
+    position: relative;
+    border: 1px solid var(--color-lightsteelblue-100);
+}
+
+.rectangle-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base) var(--padding-sm) var(--padding-base) var(--padding-mini);
+    gap: var(--gap-28xl);
+    z-index: 2;
+}
+
+.frame-child1 {
+    height: 4rem;
+    display: none;
+    max-width: 100%;
+}
+
+.inputicon28 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.primary-button3 {
+    position: relative;
+    line-height: 1.5rem;
+}
+
+.inputicon29 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.button3 {
+    height: 3.5rem;
+    border-radius: var(--br-5xs);
+    background-color: var(--darkblue500);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--darkblue500);
+    box-sizing: border-box;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xl) var(--padding-mid);
+    gap: 0 1rem;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.inputicon30 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.secondary-button4 {
+    height: 1.5rem;
+    flex: 1;
+    position: relative;
+    line-height: 1.5rem;
+    display: inline-block;
+}
+
+.inputicon31 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.buttonsecondary4 {
+    height: 3.5rem;
+    width: 8.813rem;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--darkblue500);
+    box-sizing: border-box;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xl) var(--padding-4xs);
+    gap: 0 1rem;
+    text-align: center;
+    color: var(--darkblue500);
+}
+
+.pdf-file-icon-12 {
+    height: 2rem;
+    width: 1.625rem;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.fibs-purchase-order-16-04-23 {
+    position: relative;
+    line-height: 1.5rem;
+    z-index: 1;
+}
+
+.fibs-purchase-order-16-04-23-wrapper,
+.pdf-file-icon-1-group {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.fibs-purchase-order-16-04-23-wrapper {
+    flex-direction: column;
+    padding: var(--padding-9xs) 0 0;
+}
+
+.pdf-file-icon-1-group {
+    flex-direction: row;
+    padding: 0 3.188rem 0 0;
+    box-sizing: border-box;
+    gap: 0 1.5rem;
+    max-width: 100%;
+}
+
+.order-confirmation1 {
+    position: relative;
+    font-size: var(--paragraph-small-size);
+    line-height: 1rem;
+    font-family: var(--paragraph-small);
+    color: var(--color-gray-100);
+    text-align: left;
+}
+
+.order-confirmation-wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-9xs) var(--padding-5xs);
+    background-color: var(--neutral200);
+    border-radius: var(--br-5xl);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.order-confirmation-wrapper:hover {
+    background-color: var(--color-lightblue-100);
+}
+
+.fibs-logistics2 {
+    position: relative;
+    line-height: 1rem;
+    z-index: 1;
+}
+
+.fibs-logistics-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0 0;
+    box-sizing: border-box;
+    min-width: 5.188rem;
+}
+
+.tradexyzfl00071 {
+    position: relative;
+    line-height: 1rem;
+    white-space: pre-wrap;
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.frame-parent,
+.tradexyzfl0007-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.tradexyzfl0007-wrapper {
+    flex-direction: column;
+    padding: var(--padding-10xs) 0 0;
+}
+
+.frame-parent {
+    width: 24.563rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0 0.5rem;
+    max-width: 100%;
+}
+
+.frame-container,
+.shared2 {
+    font-size: var(--paragraph-small-size);
+}
+
+.frame-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.shared2 {
+    position: relative;
+    line-height: 1rem;
+    font-family: var(--paragraph-small);
+    color: var(--color-white);
+    text-align: left;
+}
+
+.shared-wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-9xs) var(--padding-5xs);
+    background-color: var(--success500);
+    border-radius: var(--br-5xl);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 1;
+}
+
+.shared-wrapper:hover {
+    background-color: var(--color-forestgreen);
+}
+
+.on-16042023 {
+    align-self: stretch;
+    position: relative;
+    line-height: 1rem;
+    z-index: 1;
+}
+
+.morevertical {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-9xs) 0 0;
+}
+
+.frame-div,
+.frame-group,
+.morevertical {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frame-group {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 0 1.063rem;
+}
+
+.frame-div {
+    width: 13.563rem;
+    flex-direction: column;
+    padding: var(--padding-9xs) 0 0;
+    box-sizing: border-box;
+    font-size: var(--paragraph-small-size);
+}
+
+.more-vertical-icon2 {
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+    min-height: 2rem;
+    z-index: 1;
+}
+
+.frame-child2,
+.rectangle-parent1 {
+    width: 70rem;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-lightsteelblue-100);
+    box-sizing: border-box;
+}
+
+.rectangle-parent1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base) var(--padding-sm) var(--padding-base) var(--padding-mini);
+    z-index: 2;
+    text-align: left;
+}
+
+.frame-child2 {
+    height: 4rem;
+    position: relative;
+    display: none;
+    max-width: 100%;
+}
+
+.inputicon32 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.primary-button4 {
+    position: relative;
+    line-height: 1.5rem;
+}
+
+.inputicon33 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.button4 {
+    height: 3.5rem;
+    border-radius: var(--br-5xs);
+    background-color: var(--darkblue500);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--darkblue500);
+    box-sizing: border-box;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xl) var(--padding-mid);
+    gap: 0 1rem;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.inputicon34 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.secondary-button5 {
+    height: 1.5rem;
+    flex: 1;
+    position: relative;
+    line-height: 1.5rem;
+    display: inline-block;
+}
+
+.inputicon35 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.buttonsecondary5 {
+    height: 3.5rem;
+    width: 8.813rem;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--darkblue500);
+    box-sizing: border-box;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xl) var(--padding-4xs);
+    gap: 0 1rem;
+    text-align: center;
+    color: var(--darkblue500);
+}
+
+.pdf-file-icon-13 {
+    height: 2rem;
+    width: 1.625rem;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.fibs-quotation-11-04-23pdf {
+    position: relative;
+    line-height: 1.5rem;
+    z-index: 1;
+}
+
+.fibs-quotation-11-04-23pdf-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0 0;
+}
+
+.pdf-file-icon-1-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 3.25rem 0 0;
+    box-sizing: border-box;
+    gap: 0 1.5rem;
+    max-width: 100%;
+}
+
+.quotation {
+    position: relative;
+    font-size: var(--paragraph-small-size);
+    line-height: 1rem;
+    font-family: var(--paragraph-small);
+    color: var(--color-gray-100);
+    text-align: left;
+}
+
+.quotation-wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-9xs) var(--padding-5xs);
+    background-color: var(--neutral200);
+    border-radius: var(--br-5xl);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 1;
+}
+
+.quotation-wrapper:hover {
+    background-color: var(--color-lightblue-100);
+}
+
+.fibs-logistics3 {
+    position: relative;
+    line-height: 1rem;
+    z-index: 1;
+}
+
+.fibs-logistics-container {
+    flex-direction: column;
+    padding: var(--padding-9xs) 0 0;
+}
+
+.fibs-logistics-container,
+.frame-parent1,
+.frame-wrapper1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frame-parent1 {
+    flex-direction: row;
+    gap: 0 0.5rem;
+}
+
+.frame-wrapper1 {
+    width: 14.063rem;
+    flex-direction: column;
+    padding: var(--padding-9xs) 0 0;
+    box-sizing: border-box;
+    font-size: var(--paragraph-small-size);
+}
+
+.tradexyzfl00072 {
+    position: relative;
+    line-height: 1rem;
+    white-space: pre-wrap;
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.shared3,
+.tradexyzfl0007-container {
+    font-size: var(--paragraph-small-size);
+}
+
+.tradexyzfl0007-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-6xs) 0 0;
+}
+
+.shared3 {
+    position: relative;
+    line-height: 1rem;
+    font-family: var(--paragraph-small);
+    color: var(--color-white);
+    text-align: left;
+}
+
+.order-confirmation2 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-9xs) var(--padding-5xs);
+    background-color: var(--success500);
+    border-radius: var(--br-5xl);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 1;
+}
+
+.order-confirmation2:hover {
+    background-color: var(--color-forestgreen);
+}
+
+.on-12042023 {
+    align-self: stretch;
+    position: relative;
+    line-height: 1rem;
+    z-index: 1;
+}
+
+.on-12042023-wrapper {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-9xs) 0 0;
+}
+
+.frame-wrapper2,
+.on-12042023-wrapper,
+.order-confirmation-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.order-confirmation-parent {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 0 1.063rem;
+}
+
+.frame-wrapper2 {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-9xs) 0 0;
+}
+
+.more-vertical-icon3 {
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.frame-parent2 {
+    width: 15.563rem;
+    flex-direction: row;
+    font-size: var(--paragraph-small-size);
+}
+
+.frame-orderconfirmation-group4,
+.frame-parent2,
+.line7,
+.rectangle-parent2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.rectangle-parent2 {
+    width: 70rem;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-lightsteelblue-100);
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: var(--padding-base) var(--padding-sm) var(--padding-base) var(--padding-mini);
+    gap: var(--gap-28xl);
+    z-index: 2;
+    text-align: left;
+}
+
+.frame-orderconfirmation-group4,
+.line7 {
+    flex-direction: column;
+}
+
+.frame-orderconfirmation-group4 {
+    width: 70rem;
+    overflow-x: auto;
+    gap: 1.5rem 0;
+    max-width: 100%;
+    text-align: center;
+}
+
+.line7 {
+    flex: 1;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    padding: var(--padding-5xl) var(--padding-13xl) 22.313rem;
+    box-sizing: border-box;
+    gap: 1rem 0;
+    max-width: calc(100% - 240px);
+    z-index: 1;
+    text-align: left;
+}
+
+.frame-order-confirmation-logis2,
+.frame-order-confirmation-quota2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.frame-order-confirmation-logis2 {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 0 3.375rem;
+}
+
+.frame-order-confirmation-quota2 {
+    flex: 1;
+    flex-direction: column;
+    gap: 1.5rem 0;
+    text-align: center;
+    font-size: var(--paragraph-large-bold-size);
+    color: var(--bluegray500);
+    font-family: var(--paragraph-small);
+}
+
+.edit-meta-data,
+.frame-order-confirmation-logis {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.frame-order-confirmation-logis {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-5xs);
+    max-width: 100%;
+}
+
+.edit-meta-data {
+    width: 100%;
+    position: relative;
+    background-color: var(--lightgray100);
+    overflow: hidden;
+    flex-direction: column;
+    padding: 0 0 0.688rem;
+    gap: 1.5rem 0;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--paragraph-large-bold-size);
+    color: var(--color-black);
+    font-family: var(--paragraph-small);
+}
+
+@media screen and (max-width: 1325px) {
+    .line1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    .line7 {
+        padding-top: var(--padding-xl);
+        padding-bottom: 14.5rem;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .frame-order-confirmation-logis1 {
+        min-width: 100%;
+    }
+
+    .frame-orderconfirmation-quotat {
+        display: none;
+    }
+
+    .tradexyz1 {
+        font-size: 1.5rem;
+        line-height: 1.813rem;
+    }
+
+    .frame-orderconfirmation-finali3 {
+        flex-wrap: wrap;
+    }
+
+    .line7 {
+        max-width: 100%;
+    }
+
+    .frame-order-confirmation-logis2 {
+        gap: 0 1.688rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .line8,
+    .my-suppliers1 {
+        flex: 1;
+    }
+
+    .frame-order-confirmation-quota5 {
+        flex-wrap: wrap;
+    }
+
+    .tradexyz1 {
+        font-size: 1.125rem;
+        line-height: 1.375rem;
+    }
+
+    .line7 {
+        padding-bottom: 9.438rem;
+        box-sizing: border-box;
+    }
+}
